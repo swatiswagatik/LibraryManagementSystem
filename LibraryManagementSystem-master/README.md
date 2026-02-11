@@ -86,18 +86,3 @@ DELETE	/books/{id}	Delete book
 Name: Swatiswagatika Pattnaik
 Role: Software Developer Intern
 
-⭐ If you like this project, give it a star on GitHub!
-✅ How to Add This to GitHub
-
-Create a file named:
-README.md in your project folder
-
-Paste this content
-
-Save
-
-Push to GitHub again:
-
-git add README.md
-git commit -m "Added README file"
-git push
