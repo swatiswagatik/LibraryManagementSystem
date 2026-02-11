@@ -1,18 +1,103 @@
-## Getting Started
+📚 Library Management System (Spring Boot)
+📌 Project Description
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a Library Management System developed using Spring Boot.
+The project helps to manage books, users, and library operations like issuing and returning books.
 
-## Folder Structure
+🚀 Features
 
-The workspace contains two folders by default, where:
+Add new books
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+View all books
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Update book details
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Delete books
 
-## Dependency Management
+User management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Issue and return books
+
+Database integration using MySQL
+
+🛠️ Technologies Used
+
+Java
+
+Spring Boot
+
+Spring Data JPA
+
+MySQL Database
+
+Hibernate
+
+Maven
+
+Postman (for API testing)
+
+📂 Project Structure
+Library-Management-System
+│
+├── src/main/java
+│   ├── controller
+│   ├── service
+│   ├── repository
+│   └── model
+│
+├── src/main/resources
+│   ├── application.properties
+│
+└── pom.xml
+
+⚙️ How to Run the Project
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/library-management-system.git
+
+2️⃣ Open in Spring Tool Suite (STS)
+
+File → Open Projects from File System
+
+Select the project folder
+
+3️⃣ Configure MySQL Database
+
+Edit application.properties:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/library_db
+spring.datasource.username=root
+spring.datasource.password=your_password
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+4️⃣ Run the Project
+
+Right click project → Run As → Spring Boot App
+
+📬 API Endpoints (Example)
+Method	URL	Description
+GET	/books	Get all books
+POST	/books	Add new book
+PUT	/books/{id}	Update book
+DELETE	/books/{id}	Delete book
+👩‍💻 Developer
+
+Name: Swatiswagatika Pattnaik
+Role: Software Developer Intern
+
+⭐ If you like this project, give it a star on GitHub!
+✅ How to Add This to GitHub
+
+Create a file named:
+README.md in your project folder
+
+Paste this content
+
+Save
+
+Push to GitHub again:
+
+git add README.md
+git commit -m "Added README file"
+git push
